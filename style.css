@@ -1,0 +1,34 @@
+body {
+    background-color: green;
+}
+
+.card {
+    width: 330px;
+    height: 470px;
+    border-radius: 15px;
+    font-size: 6em;
+}
+
+.spades {
+    color: black;
+}
+
+.clubs {
+    color: black;
+}
+
+.diams {
+    color: red;
+}
+
+.hearts {
+    color: red;
+}
+
+.flip {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
